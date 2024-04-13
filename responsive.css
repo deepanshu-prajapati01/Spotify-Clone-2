@@ -1,0 +1,76 @@
+@media (max-width: 1150px) {
+    .left {
+        position: absolute;
+        z-index: 1;
+        left: -150vw;
+        background-color: var(--primary-color);
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .hamburgerIcon {
+        display: block;
+    }
+
+    .crossIcon {
+        display: block;
+    }
+
+    .musicController {
+        width: 95vw;
+        left: 15px;
+
+    }
+
+    .cards {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 820px) {
+
+    .musicController {
+        width: 92vw;
+        /* bottom: 25px; */
+    }
+
+    .musicController .seekBar {
+        width: 90vw;
+        left: 20px;
+    }
+
+
+    .musicInfo {
+        left: 10px;
+        border: 1px solid red;
+    }
+
+    .songPlayed {
+        right: 10px;
+        border: 1px solid green;
+    }
+}
+
+
+
+@media (max-height: 750px) {
+    .songsListCards {
+        margin-top: 10px;
+        max-height: 43vh;
+    }
+}
+
+@media (max-height: 630px) {
+    .songsListCards {
+        margin-top: 8px;
+        max-height: 40vh;
+    }
+
+    .resize-icons2 {
+        width: 23px;
+    }
+}

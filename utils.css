@@ -1,0 +1,223 @@
+/* This will apply to all scroll bars */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+/* borders */
+.red-border {
+    border: 1px solid red;
+}
+
+.green-border {
+    border: 1px solid green;
+}
+
+.white-border {
+    border: 1px solid white;
+}
+
+.roundedBorder {
+    border-radius: 7px;
+}
+
+/* link formatting */
+.blackText {
+    color: black;
+}
+
+.whiteText {
+    color: white;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+
+/* flex utils */
+.flex {
+    display: flex;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.justifyAround {
+    justify-content: space-around;
+}
+
+.justifyEvenly {
+    justify-content: space-evenly;
+}
+
+
+.alignCenter {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* margin and padding */
+.m-1 {
+    margin: 5px;
+}
+
+.mbottom-1 {
+    margin-bottom: 5px;
+}
+
+.mbottom-2 {
+    margin-bottom: 10px;
+}
+
+.mright-1 {
+    margin-right: 5px;
+}
+
+.mright-2 {
+    margin-right: 10px;
+
+}
+
+/* max width */
+
+
+.maxwidth50 {
+    max-width: 50%;
+}
+
+.maxwidth80 {
+    max-width: 80%;
+}
+
+.maxwidth90 {
+    max-width: 90%;
+}
+
+
+.p-1 {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.pleft-1{
+    padding-left: 5px;
+}
+
+.pleft-2{
+    padding-left: 10px;
+}
+.m-auto {
+    margin: auto;
+}
+
+
+/* others */
+.overflowText{
+    white-space: nowrap; /* Ensures the text will be on a single line */
+    overflow: hidden; /* Hides the text if it starts to overflow */
+    text-overflow: ellipsis; /* Adds the '...' for overflowed text */
+}
+
+.removeElement{
+    display: none;
+}
+
+.invert {
+    filter: invert();
+}
+
+.borderBox {
+    box-sizing: border-box;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.gap-1 {
+    gap: 5px;
+}
+
+.gap-2 {
+    gap: 10px;
+}
+
+.gap-3 {
+    gap: 15px;
+}
+
+/* font classes */
+.h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+/* text elements */
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font16 {
+    font-size: 16px;
+}

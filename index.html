@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./utils.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+
+
+            <div class="firstBox roundedBorder p-1 flex flex-col justifyAround">
+                <img src="svgImages/close.svg" alt="Close" class="crossIcon pointer removeElement resize-icons2 invert">
+                <img src="svgImages/logo.svg" class="invert logo" alt="Spotify">
+                <span class=" flex alignCenter gap-3">
+                    <img src="svgImages/home.svg" class="invert resize-icons2" alt="">
+                    <span> Home</span>
+                </span>
+                <span class=" flex alignCenter gap-3">
+                    <img src="svgImages/search.svg" class="invert resize-icons2" alt="">
+                    <span> Search</span>
+                </span>
+                <!-- <ul class="home-Search moreOptions flex-col">
+                    <li class="home flex alignCenter p-1">
+                        <img src="svgImages/home.svg" class="resize-icons mright-2 invert" alt="Home">Home
+                    </li>
+
+                    <li class="Search flex alignCenter p-1">
+                        <img src="svgImages/search.svg" class="resize-icons mright-2 invert" alt="Search">Search
+                    </li>
+                </ul> -->
+            </div>
+
+
+            <div class="secondBox flex flex-col roundedBorder p-1 borderBox">
+                <div class="libraryPart">
+                    <ul class="moreOptions">
+                        <li class="flex">
+                            <img src="svgImages/library.svg" class="invert resize-icons mright-2" alt="Library">Your
+                            Library
+                        </li>
+                    </ul>
+                    <img src="svgImages/plus.svg" class=" plus-icon invert resize-icons mright-2" alt="Add folder">
+                </div>
+
+
+
+                <div class="songsListCards p-1 borderBox">
+                    <!-- <div
+                        class="songList-innerCard borderBox roundedBorder p-1 flex justifyBetween white-border pointer">
+                        <div class="flex maxwidth80 alignCenter justifyCenter">
+                            <div>
+                                <img class="invert resize-icons" src="svgImages/music-note-2-svgrepo-com.svg"
+                                    alt="music">
+                            </div>
+                            <div class="innerCard-SongInfo pointer pleft-2 flex flex-col whiteText noUnderline">
+                                <span class="songName font15 mbottom-1">${key}</span>
+                            </div>
+                        </div>
+                        <img class="invert resize-icons playIcon-in-List" src="svgImages/play-circle.svg" alt="play">
+                    </div> -->
+                </div>
+
+
+                <div class="extraLinks">
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/legal/"
+                            data-encore-id="textLink"><span data-encore-id="type">Legal</span></a></div>
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/safetyandprivacy/"
+                            data-encore-id="textLink"><span data-encore-id="type">Safety & Privacy Center</span></a>
+                    </div>
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a class="whiteText noUnderline" href="https://www.spotify.com/in-en/accessibility/"
+                            data-encore-id="textLink"><span data-encore-id="type">Accessibility</span></a></div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="right roundedBorder">
+            <!-- div for sign up and log in -->
+            <div>
+                <div class="headPart roundedBorder flex justifyBetween">
+
+                    <div class="leftRightArrow flex alignCenter p-2">
+                        <img src="svgImages/hamburger.svg" alt="hamburger"
+                            class="hamburgerIcon invert pointer resize-icons2 mright-2 removeElement">
+                        <img src="svgImages/leftarrow.svg" alt="left" class="invert resize-icons mright-2">
+                        <img src="svgImages/rightarrow.svg" alt="right" class="invert resize-icons mright-2">
+                    </div>
+
+                    <div class="accountButtons flex alignCenter p-2">
+                        <button type="button" class="m-1 signUpButton p-1 roundedBorder">Sign Up</button>
+                        <button type="button" class="m-1 logInButton p-1 roundedBorder">Log In</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- div for main data -->
+            <div class="mainBody">
+                <h2 class="h2">Spotify Playlists</h2>
+
+
+
+                <!-- Store all cards -->
+                <div class="cards p-2 alignCenter">
+
+
+
+                    <!-- each one of this contain a card -->
+                    <!-- <div class="songCard white-border">
+                        <div class="thumbnailContainer pointer">
+                            <img src="Images/cover.jpg" alt="Thumbnail" class="thumbnail">
+                        </div>
+                        <div class="songInfo">
+                            <div class="cardSongName font16">songName</div>
+                            <div class="songAuthor font15 overflowText">
+                                Hits to boost your mood and fill you with happiness!
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+
+                </div>
+
+
+
+
+
+                <div class="musicController roundedBorder p-2"> <!--Its a 6vh height left-->
+                    <!-- seek bar -->
+                    <div class="seekBar pointer">
+                        <div class="seekBar-circle"></div>
+                    </div>
+
+                    <!-- for song name -->
+                    <div class="musicInfo overflowText font16">
+                        Null
+                    </div>
+
+                    <!-- for song buttons -->
+                    <div class="songButtons flex justifyCenter alignCenter gap-3">
+                        <img id="previous" class="invert resize-icons pointer mright-2" src="svgImages/prevsong.svg"
+                            alt="previousSong">
+                        <img id="play" class="invert resize-icons pointer mright-2" fill="white"
+                            src="svgImages/play.svg" alt="play">
+                        <img id="next" class="invert resize-icons pointer mright-2" src="svgImages/nextsong.svg"
+                            alt="nextSong">
+                    </div>
+
+                    <div class="songPlayed font15 ">
+                        --:--/--:--
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
