@@ -12,6 +12,7 @@ Welcome to **Spotify-Clone**, a website that brings your favorite tunes to your 
 - **Automatic Song Detection**: The website automatically detects songs from your local storage.
 - **Clean UI**: Navigate with ease thanks to the clean and straightforward UI.
 - **Enjoy Music**: Listen to your favorite tunes without any interruptions.
+- **Better Interaction**: You can interact with the music player using keyboard.
 
 ## To clone this repo, use the following command:
 
